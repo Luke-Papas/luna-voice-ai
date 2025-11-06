@@ -374,7 +374,7 @@ const Hero = () => {
           <div className="absolute -inset-8 -z-10 bg-[radial-gradient(circle_at_40%_20%,rgba(79,70,229,0.15),transparent_50%),radial-gradient(circle_at_70%_70%,rgba(16,185,129,0.12),transparent_50%)]" />
           <Card className="overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?q=80&w=1400&auto=format&fit=crop"
+              src="/Girl_On_Phone.png"
               alt="Customer happily speaking on the phone — LUNA voice assistant illustration"
               className="w-full h-[420px] object-cover"
             />
