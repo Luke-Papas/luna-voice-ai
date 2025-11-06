@@ -17,9 +17,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 // ===== Utility: Theme Toggle Hook =====
 function useTheme() {
-  const [isDark, setIsDark] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return document.documentElement.classList.contains("dark");
+  const [isDark, setIsDark] = useState(true);
   });
   useEffect(() => {
     const cls = document.documentElement.classList;
